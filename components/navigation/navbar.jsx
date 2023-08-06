@@ -3,12 +3,10 @@ import styles from "../../styles/Navbar.module.css";
 export default function Navbar() {
 	return (
 		<nav className={styles.navbar}>
-			<a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
-				<img
-					className={styles.alchemy_logo}
-					src="/alchemy_logo.svg"
-				></img>
-			</a>
+			
+			<a href="/" target={"_blank"}>
+        <h3>NFTY</h3>
+      </a>
 			<ConnectButton></ConnectButton>
 		</nav>
 	);
